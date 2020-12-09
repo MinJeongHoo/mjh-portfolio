@@ -1,0 +1,258 @@
+.about{
+    margin-left: 264.2px;
+    height: 100%;
+}
+
+.aboutInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    padding : 3rem 4em;
+}
+
+.aboutIntro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 3rem;
+}
+
+.aboutName{
+    font-size: 2.7em;
+    margin-bottom: 2rem;
+}
+
+.aboutYear{
+    font-size:1.3em;
+    margin-bottom: 2rem;
+}
+
+.aboutDesc{
+    color:gray;
+    margin-bottom: 2rem;
+}
+
+.buttonField{
+    display: flex;
+    justify-content: flex-start;
+}
+
+button{
+    padding: 1em 2em;
+    border-radius: 12px;
+    outline: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: white;
+    color:white;
+    font-weight: bold;
+
+}
+
+.portBtn{
+    border :1.2px solid #3dccad;
+    background-color: #3dccad;
+    margin-right: 1.5rem;
+}
+.resumeBtn{
+    border:1.2px solid #575757;
+    background-color: #575757;
+}
+.aboutSkils{
+    padding : 3rem 4em;
+}
+.skilsTitle{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.skilsDesc{
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.skilsInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.skilsInfo svg{
+    margin-bottom: 0.6rem;
+    font-size: 25px!important;
+}
+
+.skilsList{
+    display: grid;
+    grid-template-columns: repeat(3,35%);
+}
+.skilsName{
+    margin-bottom: 1rem;
+}
+
+.fa-js-square{
+    color:#F1DE4F!important;
+}
+.test{
+    color:#F1DE4F!important;
+}
+.mariobackground{
+    background-color: skyblue;
+    width: 55%;
+    min-width: 450px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    position: relative;
+}
+
+.button{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    background-color: white;
+    border : 1px solid #0081bd;
+    color:#0081bd;
+
+    padding:15px 2.5em;
+    border-radius: 1.2rem;    
+
+    cursor: pointer;
+    transition: all 200ms ease-in;
+
+    margin: 3em 0 ;
+}
+.button:hover{
+    border:1px solid white;
+    background-color: #0081bd;
+    color: white;
+}
+
+.button:hover .link{
+    color: white;
+}
+
+.link{
+    text-decoration:none;
+    transition: all 200ms ease-in;
+    color:#0081bd;
+}
+
+.button svg{
+    margin-right: 0.4rem;
+}
+
+.marioimage{
+    position: absolute;
+    top:147px;
+    background-image: url(../../../common/img/mariocart.png);
+    width: 55px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    animation: animation;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.welcome{  
+    position: absolute;
+    top:10%;
+    left:15%;
+    right: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    animation: upanimation;
+    animation-fill-mode: both;
+    animation-duration: 1.8s;
+}
+
+
+
+@keyframes upanimation{
+    0%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes animation{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(720px);
+    }
+}
+
+@media (max-width:1700px){
+    @keyframes animation{
+        0%{
+            transform: translateX(0px);
+        }
+        100%{
+            transform: translateX(380px);
+        }
+    }
+}
+
+@media (max-width:1420px){
+    @keyframes animation{
+        0%{
+            transform: translateX(0px);
+        }
+        100%{
+            transform: translateX(380px);
+        }
+    }
+}
+
+
+
+
+@media (max-width: 1070px) {
+    .about{
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        width: 100%;
+        height: 100%;
+    }
+    .aboutInfo{
+        flex-direction: column;
+    }
+    .aboutIntro{
+        margin-right: 0;
+    }
+    .mariobackground{
+        display: none;
+    }
+    .aboutSkils{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+
+    .skilsList{
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+    }
+
+
+    
+}

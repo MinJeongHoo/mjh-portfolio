@@ -1,0 +1,138 @@
+@value color-white , color-blue from '../../../common/colors.css';
+
+.portfolio{
+    margin-left: 264.2px;
+    height: 100%;
+    text-align: center;
+
+}
+
+.portfolioIntro{
+    padding: 1.7rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    background-color: rgb(250, 250, 250);
+
+}
+
+.introTitle{
+    font-size: 2.2em;
+    margin-bottom: 2em;
+}
+.button{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    background-color: white;
+    border : 1px solid #0081bd;
+    color:#0081bd;
+
+    padding:15px 2.5em;
+    border-radius: 1.2rem;    
+
+    cursor: pointer;
+    transition: all 200ms ease-in;
+
+    margin: 3em 0 ;
+}
+.button:hover{
+    border:1px solid white;
+    background-color: #0081bd;
+    color: white;
+}
+
+.button svg{
+    margin-right: 0.4rem;
+}
+
+.field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7.5rem;
+    margin-bottom: 8rem;
+}
+
+.fieldName{
+    margin-right: 5rem;
+}
+.fieldName:hover{
+    cursor: pointer;
+}
+
+.projectList{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,29%);
+}
+
+.projectImg{
+    background-image: url('../../../common/img/maxresdefault.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin-right: 1.2rem;
+}
+
+.projectInfo{
+    text-align: left;
+}
+
+.project{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.projectTitle{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.projectDesc{
+    margin-bottom: 1.2rem;
+    font-size: 0.9em;
+}
+
+.projectClient{
+    font-size: 0.7em;
+}
+
+
+@media (min-width:800px) and (max-width: 1070px) {
+  .portfolio{
+      margin: 0;
+  }
+  .projectList{
+    grid-template-columns: repeat(2,50%);
+    margin-left: 1.2rem;
+  }
+  .portfolioIntro{
+      padding: 1.5rem 3rem;
+  }
+}
+@media(max-width: 780px){
+    .portfolio{
+        margin: 0;
+    }
+    .projectList{
+        grid-template-columns: repeat(1,50%);
+        margin-left:0;
+    }
+    .project{
+        flex-direction: column;
+    }
+    .projectImg{
+        width: 100%;
+        max-width: 252px;
+        margin-bottom: 1.5rem;
+      }
+    .projectInfo{
+        text-align: center;
+    }
+    .portfolioIntro{
+        padding: 1.5rem 3rem;
+    } 
+}
