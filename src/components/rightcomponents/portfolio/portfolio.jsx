@@ -40,7 +40,7 @@ const Portfolio = (props) => {
                     <h3 className={styles.projectTitle}>Samsung DS TEST Platform</h3>
                 </div>
                 <div className={styles.project}>
-                    <div className={styles.projectImg}></div>
+                    <div className={styles.projectImg1}></div>
                     <div className={styles.projectInfo}>
                         <p className={styles.projectDesc}>Kotra에서 해외전시를 관리하는 웹사이트를 개발하는 프로젝트 입니다.</p>
                         <p className={styles.projectClient}>Client: KOTRA</p>

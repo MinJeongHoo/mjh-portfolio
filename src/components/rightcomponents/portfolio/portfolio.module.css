@@ -79,6 +79,17 @@
     padding: 0 1.2rem;
 }
 
+.projectImg1{
+    background-image: url('../../../common/img/kotra.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1.5rem;
+    padding: 0 1.2rem;
+}
+
+
 .projectInfo{
     top:0;
     position: absolute;
