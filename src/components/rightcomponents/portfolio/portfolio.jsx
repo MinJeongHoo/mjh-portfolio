@@ -17,43 +17,43 @@ const Portfolio = (props) => {
             <div className={styles.projectList}>
                 <div className={styles.project}>
                     <div className={styles.projectImg}></div>
+                    <h3 className={styles.projectTitle}>DS ModuleBOM</h3>
                     <div className={styles.projectInfo}>
-                        <h3 className={styles.projectTitle}>Project Heading</h3>
-                        <p className={styles.projectDesc}>Project Description</p>
+                        <p className={styles.projectDesc}>Samsung 반도체 공정 설계단위 파트에서 수행하는 프로그램을 개발하는 프로젝트 입니다.</p>
+                        <p className={styles.projectClient}>Client: Samsung</p>
+                    </div>
+                </div>
+                <div className={styles.project}>
+                    <div className={styles.projectImg}></div>
+                    <h3 className={styles.projectTitle}>SAMSUNG Circuit PDM</h3>
+                    <div className={styles.projectInfo}>
+                        <p className={styles.projectDesc}>Samsung 무선 사업부에서 사용되는 프로그램을 개발하는 프로젝트 입니다.</p>
                         <p className={styles.projectClient}>Client: Samsung</p>
                     </div>
                 </div>
                 <div className={styles.project}>
                     <div className={styles.projectImg}></div>
                     <div className={styles.projectInfo}>
-                        <h3 className={styles.projectTitle}>Project Heading</h3>
-                        <p className={styles.projectDesc}>Project Description</p>
+                        <p className={styles.projectDesc}>Samsung 반도체 기기 테스트 데이터를 관리하는 프로그램을 개발하는 프로젝트 입니다.</p>
                         <p className={styles.projectClient}>Client: Samsung</p>
                     </div>
+                    <h3 className={styles.projectTitle}>Samsung DS TEST Platform</h3>
                 </div>
                 <div className={styles.project}>
                     <div className={styles.projectImg}></div>
                     <div className={styles.projectInfo}>
-                        <h3 className={styles.projectTitle}>Project Heading</h3>
-                        <p className={styles.projectDesc}>Project Description</p>
-                        <p className={styles.projectClient}>Client: Samsung</p>
+                        <p className={styles.projectDesc}>Kotra에서 해외전시를 관리하는 웹사이트를 개발하는 프로젝트 입니다.</p>
+                        <p className={styles.projectClient}>Client: KOTRA</p>
                     </div>
+                    <h3 className={styles.projectTitle}>KOTRA Abroad Exhibit</h3>
                 </div>
                 <div className={styles.project}>
                     <div className={styles.projectImg}></div>
                     <div className={styles.projectInfo}>
-                        <h3 className={styles.projectTitle}>Project Heading</h3>
-                        <p className={styles.projectDesc}>Project Description</p>
+                        <p className={styles.projectDesc}>Samsung 자재들의 환경 관련 물질들을 관리하는 프로그램을 개발하는 프로젝트 입니다.</p>
                         <p className={styles.projectClient}>Client: Samsung</p>
                     </div>
-                </div>
-                <div className={styles.project}>
-                    <div className={styles.projectImg}></div>
-                    <div className={styles.projectInfo}>
-                        <h3 className={styles.projectTitle}>Project Heading</h3>
-                        <p className={styles.projectDesc}>Project Description</p>
-                        <p className={styles.projectClient}>Client: Samsung</p>
-                    </div>
+                    <h3 className={styles.projectTitle}>Samsung Ecims</h3>
                 </div>
             </div>
         </section>
