@@ -6,7 +6,7 @@ const Portfolio = (props) => {
             <div className={styles.portfolioIntro}>
                 <h1 className={styles.introTitle}>Portfolio</h1>
                 <p>저는 삼성전자 PLM 분야 프로젝트에 주로 참여했습니다. Module BOM Proecess 부터 시작해서 회로 PDM , TEST Platform 프로젝트 등을 참여한 경력이 있고
-                그 이외에도 코트라 해외전시 프로젝트도 진행했습니다.주로 JAVA와 Jquery 그리고 Oracle을 사용했기 때문에, 다른 스킬들을 더욱 쌓기위해 개인 프로젝트로 React.JS ,Python Django 등을 혼자서 개발했습니다.</p>
+                그 이외에도 코트라 해외전시 프로젝트도 진행했습니다.주로 JAVA와 Jquery 그리고 Oracle을 사용했기 때문에, 다른 스킬들을 더욱 쌓기위해 React.JS ,Python Django 등을 이용하여 혼자 사이드 프로젝트를 개발 했습니다.</p>
             </div>
             <div className={styles.projectList}>
                 <div className={styles.project}>
